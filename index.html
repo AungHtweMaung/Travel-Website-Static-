@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Around The World</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- cdnjs font-awemsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Home Page-->
+    <header class="home" id="home">
+        <nav class="nav-bar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#event">Event</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li class="btn"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="home-container">
+            <div class="home-content">
+                <h3>Explore Colorful World</h3>
+                <div class="line"></div>
+                <h1>A WONDERFUL GIFT</h1>
+                <div class="btn"><a href="#">Learn More</a></div>
+            </div>
+        </div>
+    </header>
+    <!-- End Home Page-->
+
+
+    <!-- Event Section-->
+    <section class="event" id="event">
+        <div class="event-container">
+            <h1 class="title">Upcoming Events</h1>
+            <div class="line"></div>
+            <div class="row">
+                <div class="col">
+                    <img src="./img/upain1.jpg" alt="">
+                    <h3>Mandalay UPain Bridge</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate dolorum culpa porro, rerum voluptas expedita animi laborum nesciunt temporibus eos magnam impedit fugit libero error labore, quo accusamus vel?</p>
+                    <div class="btn">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./img/white-pagoda.jpg" alt="">
+                    <h3>Famous White Pagoda</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis perspiciatis cupiditate tempora excepturi aperiam! Commodi dignissimos sit magnam, tempore enim, ea, beatae consectetur ipsa fugit corporis odit minus sunt reprehenderit.</p>
+                    <div class="btn">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Event Section-->
+
+  
+    <!-- Explore Section -->
+    <section class="explore" id="explore">
+        <div class="explore-container">
+            <h1 class="explore-title">Explore The World</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis omnis asperiores ad quibusdam eius suscipit, temporibus cum cumque repellendus doloribus nemo ducimus placeat totam nulla illo earum voluptates iure qui!</p>
+            <div class="btn"><a href="">Learn More</a></div>
+        </div>
+    </section>
+    <!-- End Explore Section -->
+
+
+    <!-- Tours Section -->
+    <section class="tours" id="tours">
+        <div class="tours-container">
+            <div class="tours-content">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ipsum recusandae excepturi labore pariatur corporis numquam hic cupiditate voluptatem eum et vero ratione incidunt, reiciendis nesciunt temporibus fugit illum nostrum!</p>
+                <div class="btn">
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="tours-img-gallery">
+                <div class="img-item">
+                    <img src="./img/hike2.jpg" alt="">
+                </div>
+                <div class="img-item">
+                    <img src="./img/train.jpg" alt="">
+                </div>
+                <div class="img-item">
+                    <img src="./img/upain2.jpg" alt="">
+                </div>
+                <div class="img-item">
+                    <img src="./img/balloon.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Tours Section -->
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-content">
+            <p>405(B) Chaw Sate, MaHarAungMyae Township, Mandalay | Email: aunghtwemaung121@gmail.com</p>
+            <p><i>Copyright @ 2022 Outdoor Adventure</i></p>
+        </div>
+    </section>
+    <!-- End Footer-->
+
+    <script>
+        const menu_btn = document.querySelector(".menu-btn");
+        const nav_links = document.querySelector(".nav-links");
+
+        menu_btn.addEventListener("click", ()=>{
+            nav_links.classList.toggle("mobile-menu")
+        })
+
+    </script>
+</body>
+</html>
